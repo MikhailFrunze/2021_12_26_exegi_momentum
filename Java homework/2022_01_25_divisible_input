@@ -1,0 +1,20 @@
+package de.telran;
+
+public class Main {
+
+    public static void main(String[] args) {
+        divisibleInput(5, 5);
+    }
+
+    public static void divisibleInput(int num1, int num2) {
+        if (num1 % num2 == 0) {
+            System.out.println("num1 is divisible by num2");
+        }
+
+        if (num1 % num2 != 0) {
+            System.out.println("Enter other 2 numbers");
+        }
+        
+    }
+
+}
