@@ -1,0 +1,19 @@
+package de.telran;
+
+public class Main {
+
+    public static void main(String[] args) {
+	String str = new String("Hello world");
+
+    printStringInReverse(str);
+    }
+
+    public static void printStringInReverse(String str) {
+        for (int i = str.length() - 1; i > str.indexOf(0) ; i--) {
+            System.out.print(str.charAt(i));
+        }
+
+    }
+}
+
+
