@@ -1,0 +1,24 @@
+package de.telran;
+
+public class Main {
+
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "Hi";
+
+        twoStrings(str1, str2);
+    }
+
+    public static void twoStrings(String str1, String str2) {
+        for (int i = 0; i < str1.length(); i++) {
+            for (int j = 0; j < str2.length(); j++) {
+                if (str2.charAt(j) != str1.charAt(i)) {
+                    System.out.println(str2.indexOf(j));
+                    /*Тут что-то не так*/
+                }
+
+            }
+            break;
+        }
+    }
+}
