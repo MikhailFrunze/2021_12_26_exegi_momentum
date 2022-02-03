@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Float</title>
+</head>
+
+<body>
+
+    <h1>Вебстудия неутомимые пчёлки</h1>
+    <div class="div-1">
+        <aside class="right">
+            <h3>На сайте</h3>
+            <ul>
+                <li>
+                    <a href="">Главная</a>
+                </li>
+                <li>
+                    <a href="">Продвижение сайта</a>
+                </li>
+                <li>
+                    <a href="">Создание сайта</a>
+                </li>
+                <li>
+                    <a href="">Разработка приложений</a>
+                </li>
+                <li>
+                    <a href="">SEO & SMM</a>
+                </li>
+                <li>
+                    <a href="">Контекстная реклама</a>
+                </li>
+                <li>
+                    <a href="">Портфолио</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
+            </ul>
+        </aside>
+
+        <aside class="right div-2">
+            <h3>Полезные материалы</h3>
+            <ul>
+                <li>
+                    <a href="">Полезный материал 1</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 2</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 3</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 4</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 5</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 6</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 7</a>
+                </li>
+                <li>
+                    <a href="">Полезный материал 8</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <div class="div-3">
+        <h3 style="font-size: smaller;">Создание сайтов</h3>
+        <img class="left" src="https://cdn.pixabay.com/photo/2017/01/09/17/19/bulgarian-1967091_960_720.png" alt="Folk symbols">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+        <img class="right" src="https://cdn.pixabay.com/photo/2017/01/09/17/19/bulgarian-1967091_960_720.png" alt="Folk symbols">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+        <img class="left" src="https://cdn.pixabay.com/photo/2017/01/09/17/19/bulgarian-1967091_960_720.png" alt="Folk symbols">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque. Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Ipsam fuga ad praesentium voluptas ab, voluptatibus, saepe deleniti dolorum non, in velit debitis id nostrum iusto voluptatem molestias quaerat doloribus itaque.</p>
+    </div>
+
+    <footer>2021 - &#169; andron13</footer>
+</body>
+
+</html>
