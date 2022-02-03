@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: #FCB3C1;
+    --secondary-bg-color: #D7BED7;
+}
+
+body {}
+
+aside {
+    background-color: var(--secondary-bg-color);
+    font-size: 20px;
+    width: 300px;
+    border: greenyellow 5px ridge;
+    border-radius: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    border: purple dashed 1.5px;
+    margin: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.div-1 {
+    display: grid;
+    float: right;
+    margin-right: 38.4px;
+}
+
+.div-2 {}
+
+.div-3 {
+    background-color: var(--main-bg-color);
+    font-size: 27px;
+    border: greenyellow dashed 1.5px;
+    border-radius: 25px;
+    width: 2000px;
+}
+
+footer {}
