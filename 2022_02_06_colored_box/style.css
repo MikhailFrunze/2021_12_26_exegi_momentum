@@ -1,0 +1,173 @@
+.one {
+    background-color: blue;
+    height: 88px;
+    width: 40%;
+    margin-bottom: 40px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.two {
+    background-color: rgb(255, 204, 153);
+    float: left;
+    width: 85px;
+    height: 308px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.three {
+    background-color: rgb(255, 204, 153);
+    margin-right: 1132px;
+    float: right;
+    width: 85px;
+    height: 308px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.four {
+    text-align: center;
+    background-color: rgb(204, 51, 51);
+    width: 30%;
+    font-size: 33px;
+    margin-bottom: 40px;
+    margin-left: 95px;
+    height: 38px;
+}
+
+.five {
+    width: 747px;
+    background-color: rgb(204, 255, 255);
+    margin-left: 95px;
+    height: 230px;
+    font-size: 33px;
+    width: 30%;
+    text-align: center;
+}
+
+.six {
+    background-color: rgb(204, 153, 0);
+    height: 88px;
+    width: 40%;
+    margin-bottom: 40px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.seven {
+    background-color: rgb(64, 224, 208);
+    float: left;
+    padding: 40px;
+    font-size: 33px;
+    width: 15%;
+    text-align: center;
+}
+
+.eight {
+    background-color: rgb(64, 224, 208);
+    padding: 40px;
+    font-size: 33px;
+    float: right;
+    width: 15%;
+    margin-right: 1131px;
+    text-align: center;
+}
+
+.nine {
+    background-color: rgb(255, 255, 153);
+    float: left;
+    padding: 40px;
+    margin-right: 15px;
+    font-size: 33px;
+    width: 5%;
+    text-align: center;
+}
+
+.ten {
+    background-color: rgb(255, 255, 153);
+    float: left;
+    padding: 40px;
+    font-size: 33px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.eleven {
+    background-color: rgb(255, 255, 153);
+    float: right;
+    padding: 40px;
+    margin-right: 1131px;
+    font-size: 33px;
+    width: 5%;
+    text-align: center;
+
+}
+
+.twelve {
+    background-color: rgb(255, 255, 153);
+    float: right;
+    padding: 40px;
+    margin-right: 15px;
+    font-size: 33px;
+    width: 5%;
+    text-align: center;
+}
+
+.thirteen {
+    background-color: rgb(102, 153, 102);
+    float: left;
+    padding: 40px;
+    margin-right: 1px;
+    width: 130px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.fourteen {
+    background-color: rgb(102, 153, 102);
+    float: right;
+    padding: 40px;
+    margin-right: 1131px;
+    width: 130px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.fifteen {
+    background-color: rgb(102, 153, 102);
+    padding: 40px;
+    float: right;
+    width: 130px;
+    margin-right: 61px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.sixteen {
+    background-color: rgb(128, 128, 128);
+    height: 88px;
+    width: 40%;
+    margin-bottom: 40px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.second-block {
+    margin-bottom: 40px;
+}
+
+.third-block {}
+
+.fourth-block {
+    margin-bottom: 200px;
+}
+
+.fifth-block {
+    margin-bottom: 340px;
+}
+
+.sixth-block {
+    margin-bottom: 500px;
+}
