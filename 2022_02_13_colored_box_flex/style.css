@@ -1,0 +1,183 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+
+.one {
+    background-color: blue;
+    height: 88px;
+    width: 40%;
+    font-size: 33px;
+    text-align: center;
+    order: 16;
+    margin-bottom: 40px;
+}
+
+.two {
+    background-color: rgb(255, 204, 153);
+    width: 85px;
+    height: 308px;
+    font-size: 33px;
+    text-align: center;
+    order: 15;
+}
+
+.three {
+    background-color: rgb(255, 204, 153);
+    width: 85px;
+    height: 308px;
+    font-size: 33px;
+    text-align: center;
+    display: flex;
+    align-self: unset;
+    order: 14;
+    margin-left: 670px;
+    margin-top: -308px;
+}
+
+.four {
+    text-align: center;
+    background-color: rgb(204, 51, 51);
+    width: 30%;
+    font-size: 33px;
+    height: 38px;
+    order: 13;
+    margin-left: 95px;
+    margin-top: -308px;
+    margin-bottom: 270px;
+}
+
+.five {
+    width: 747px;
+    background-color: rgb(204, 255, 255);
+    height: 230px;
+    font-size: 33px;
+    width: 30%;
+    text-align: center;
+    order: 12;
+    margin-left: 95px;
+    margin-top: -230px;
+    margin-bottom: 40px;
+}
+
+.six {
+    background-color: rgb(204, 153, 0);
+    height: 88px;
+    width: 40%;
+    font-size: 33px;
+    text-align: center;
+    order: 11;
+    margin-bottom: 40px;
+}
+
+.seven {
+    background-color: rgb(64, 224, 208);
+    padding: 40px;
+    font-size: 33px;
+    width: 15%;
+    text-align: center;
+}
+
+.eight {
+    background-color: rgb(64, 224, 208);
+    padding: 40px;
+    font-size: 33px;
+    width: 15%;
+    text-align: center;
+}
+
+.nine {
+    background-color: rgb(255, 255, 153);
+    padding: 40px;
+    font-size: 33px;
+    width: 4%;
+    text-align: center;
+}
+
+.ten {
+    background-color: rgb(255, 255, 153);
+    padding: 40px;
+    font-size: 33px;
+    width: 4%;
+    text-align: center;
+}
+
+.eleven {
+    background-color: rgb(255, 255, 153);
+    padding: 40px;
+    font-size: 33px;
+    width: 4%;
+    text-align: center;
+}
+
+.twelve {
+    background-color: rgb(255, 255, 153);
+    padding: 40px;
+    font-size: 33px;
+    width: 4%;
+    text-align: center;
+}
+
+.thirteen {
+    background-color: rgb(102, 153, 102);
+    padding: 40px;
+    width: 130px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.fourteen {
+    background-color: rgb(102, 153, 102);
+    padding: 40px;
+    width: 130px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.fifteen {
+    background-color: rgb(102, 153, 102);
+    padding: 40px;
+    width: 130px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.sixteen {
+    background-color: rgb(128, 128, 128);
+    height: 88px;
+    width: 40%;
+    font-size: 33px;
+    text-align: center;
+}
+
+.second-block {
+    display: flex;
+    gap: 605px;
+}
+
+.third-block {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.fourth-block {
+    display: flex;
+    gap: 29px;
+    order: 10;
+    margin-bottom: 40px;
+}
+
+.fifth-block {
+    display: flex;
+    gap: 45px;
+    order: 9;
+    margin-bottom: 40px;
+}
+
+.sixth-block {
+    display: flex;
+    gap: 62.5px;
+    order: 8;
+    margin-bottom: 40px;
+}
