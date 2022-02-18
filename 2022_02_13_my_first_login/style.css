@@ -1,0 +1,67 @@
+h1 {
+    color: #413864;
+    text-transform: uppercase;
+    margin-left: 98px;
+}
+
+.username {
+    background-color: #E6E6E6;
+    width: 253px;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+
+.password {
+    background-color: #E6E6E6;
+    width: 253px;
+    font-weight: bold;
+    height: 50px;
+    padding-left: 50px;
+    border: 0px;
+    margin-bottom: 5px;
+}
+
+.remember-me {
+    margin-bottom: 33px;
+}
+
+button {
+    width: 305px;
+    height: 50px;
+    background-color: #8581F9;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.radio {
+    box-sizing: border-box;
+    appearance: none;
+    background: white;
+    outline: 2px solid #8581F9;
+    border: 3px solid white;
+    width: 16px;
+    height: 16px;
+    outline-style: auto;
+}
+
+input[type='radio'] {
+    border-radius: 10px;
+}
+
+input[type='radio']:checked {
+    background: #333;
+}
+
+a {
+    margin-left: 128px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+}
