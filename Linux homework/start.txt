@@ -1,0 +1,27 @@
+Start
+
+Sun Feb 20 17:37:19 UTC 2022
+/:
+total 68
+drwxrwxrwx   21 0        0              461 Feb 20 18:18 .
+drwxrwxrwx   21 0        0              461 Feb 20 18:18 ..
+-rw-------    1 0        0              905 Jun 24  2020 .ash_history
+-rw-rw-rw-    1 0        0                0 Feb 20 17:29 .fscmd
+drwxr-xr-x    2 0        0              297 Jul  5  2020 .preload2
+drwxr-xr-x    2 0        0             2089 Jan  9  2021 bin
+drwxr-xr-x    4 0        0             2240 Feb 20 17:29 dev
+drwxr-xr-x   39 0        0             1979 Jan  9  2021 etc
+drwxr-xr-x    3 0        0               58 Jul  5  2020 home
+drwxr-xr-x    8 0        0              901 Aug 17  2020 lib
+drwxr-xr-x    5 0        0              102 May 29  2020 media
+drwxr-xr-x    2 0        0               37 May 29  2020 mnt
+drwxr-xr-x    4 0        0               79 Jan  9  2021 opt
+dr-xr-xr-x   40 0        0                0 Feb 20 17:29 proc
+drwxr-xr-x    5 0        0              237 Jan  9  2021 Mihail Frunze
+drwxr-xr-x    4 0        0              140 Feb 20 17:29 run
+drwxr-xr-x    2 0        0             2312 Nov 21  2020 sbin
+drwxr-xr-x    2 0        0               37 May 29  2020 srv
+dr-xr-xr-x   12 0        0                0 Feb 20 17:29 sys
+drwxrwxrwt    2 0        0               37 Jan  9  2021 tmp
+drwxr-xr-x   10 0        0              229 Jun 24  2020 usr
+drwxr-xr-x   16 0        0              348 Aug 27  2020 var
