@@ -1,0 +1,40 @@
+   0 mkdir /home/user/start
+   1 mkdir -p  /home/user/start
+   2 cd /home/
+   3 tree
+   4 touch /home/user/start/1.txt
+   5 tree
+   6 vi /home/user/start/1.txt 
+   7 date >>  /home/user/start/1.txt 
+   8 mkdir -p /opt/task
+   9 touch /opt/task/start.txt
+  10 cp /home/user/start/1.txt  /opt/task/start.txt 
+  11 echo /opt/task/start.txt 
+  12 tails -3 /opt/task/start.txt 
+  13 echo tail -3 /opt/task/start.txt 
+  14  tail -3 /opt/task/start.txt
+  15 tail -8 ls -la / >> /opt/task/start.txt 
+  16  tail -3 /opt/task/start.txt
+  17 ls -la /
+  18 ls -la / tail -8 >> /opt/task/start.txt 
+  19 tail -3 /opt/task/start.txt 
+  20 tail -8 ls -la /
+  21 echo ls -la / tail -8  
+  22 tails -n 8 /opt/task/start.txt 
+  23 tail -n 8 /opt/task/start.txt
+  24 ls -la / tail -n 8 >> /opt/task/start.txt 
+  25 tail -n 8 / ls -la /opt/task/start.txt 
+  26 tail -n 8 ls -la / >> /opt/task/start.txt 
+  27 tail -n 8 /opt/task/start.txt 
+  28 touch /opt/users.txt
+  29 date > /opt/users.txt 
+  30 tail -n 10 /etc/group >> /opt/users.txt 
+  31 cd /opt/users.txt
+  32 cd /opt/
+  33 vi
+  34 vi /opt/users.txt 
+  35 export_file /opt/users.txt 
+  36 export_file /opt/task/start.txt 
+  37 vi /opt/task/start.txt 
+  38 export_file /opt/task/start.txt 
+  39 history > /tmp/history
