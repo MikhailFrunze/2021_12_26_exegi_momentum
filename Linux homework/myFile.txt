@@ -1,0 +1,12 @@
+Tue Mar  1 14:51:41 WEST 2022
+Filesystem           1M-blocks   Used Available Use% Mounted on
+C:/Program Files/Git    487259 481836      5424  99% /
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+AuthenticAMD
+   misci     386       1 ?        14:50:32 /usr/bin/mintty
+   misci     387     386 pty0     14:50:32 /usr/bin/bash
+   misci     696     387 pty0     16:46:21 /usr/bin/ps
