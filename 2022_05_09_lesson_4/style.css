@@ -59,6 +59,7 @@ a {
 
 body {
     overflow-x: hidden;
+    
 }
 
 .the_problem {
@@ -98,7 +99,6 @@ h1 {
     height: 483px;
     left: 0px;
     top: 1206px;
-    overflow: hidden;
 }
 
 .background_image_blue>p {
@@ -183,10 +183,12 @@ h1 {
     margin-left: 542px;
 }
 
+.badge_grid>p {}
+
 .badge {
     width: 350px;
     height: 283px;
-      
+
 }
 
 .badge>h2 {
@@ -199,7 +201,7 @@ h1 {
     line-height: 28px;
     color: #007765;
     margin: 0;
-  padding: 0;
+    padding: 0;
 }
 
 .badge>p {
@@ -212,36 +214,162 @@ h1 {
     line-height: 21px;
     color: #000000;
     display: inline;
-    
-}
-
-footer{
-height: 176px;
-background: #333333;
 
 }
 
-footer>p{
+footer {
+    height: 176px;
+    background: #333333;
+
+}
+
+footer>p {
     position: absolute;
-width: 540px;
-height: 64px;
-left: 690px;
-top: 3151px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
-color: #FFFFFF;
+    width: 540px;
+    height: 64px;
+    left: 690px;
+    top: 3151px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
 
 }
 
-#lower_grid>h2{
+#lower_grid>h2 {
     margin-left: 13.5px;
 }
 
-.bighetti>p{
+.bighetti>p {
     margin-left: 25px;
+}
+
+@media only screen and (max-width: 1219px) {
+    .header_box {
+        height: 84px;
+        left: 0px;
+        top: 0px;
+        background: #007765;
+        display: flex;
+        max-width: 1219px;
+    }
+
+    .logo_box {
+        position: absolute;
+        width: 184px;
+        left: 5.02%;
+        right: 0%;
+        top: 2%;
+    }
+
+    .nav-list {
+        display: flex;
+        list-style: none;
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #FFFFFF;
+        height: 45px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        left: 60%;
+    }
+
+    .background_image {
+        background-image: url(/2022_05_09_lesson_4/img/image.png);
+        height: 403px;
+        left: 0px;
+        top: 84px;
+        max-width: 1219px;
+        background-size: 1219px 403px;
+        background-repeat: no-repeat;
+        
+    }
+
+    .the_problem {
+        max-width: 1219px;
+    }
+
+    .the_problem>p {
+        width: 1110px;
+        height: 483px;
+        margin-left: 55px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+    .background_image_blue {
+        background-image: url(/2022_05_09_lesson_4/img/image_blue.png);
+background-size: 1219px 483px;
+background-repeat: no-repeat;
+max-width: 1219px;
+}
+
+.background_image_blue>p {
+    left: 163px;
+}
+
+.introduction {
+    max-width: 1219px;
+height: 604px;
+left: 0px;
+top: 1689px;
+
+}
+
+.introduction>h1 {
+    margin-left: 55px;
+}
+
+.logo_paragraph{
+    margin-left: 55px;
+}
+
+.logo_paragraph>p {
+    left: 218px;
+}
+
+.introduction>p {
+    margin-left: 55px;
+}
+
+.badge_grid {
+    display: grid;
+    grid-template-columns: 212px 212px 212px;
+    grid-gap: 120px;
+    margin-left: 200px;
+    max-width: 1219px;
+}
+
+footer{
+    max-width: 1219px;
+}
+footer>p {
+    position: absolute;
+    width: 540px;
+    margin-top: 64px;
+    left: 340px;
+    top: 3186px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.team{
+    background-color: #EEEEEE;
+    max-width: 1219px;
+}
 }
 
