@@ -2,14 +2,14 @@
 
 :root {
     --main-white: #f0f0f0;
-    --main-red: 	hsl(10, 94%, 60%);
+    --main-red: hsl(10, 94%, 60%);
     --main-blue: #45567d;
     --main-gray: #303841;
-  }
+}
 
 html {
     height: 100%;
-    
+
 }
 
 body {
@@ -19,6 +19,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    transition: background 0.2s linear;
+
 }
 
 header {
@@ -28,7 +30,10 @@ header {
     background-color: #212529;
     height: 60px;
     padding: 0;
+    z-index: 999;
 }
+
+
 
 .nav_list {
     list-style-type: none;
@@ -41,15 +46,15 @@ header {
     float: left;
 }
 
-.nav_list_item > a {
+.nav_list_item>a {
     text-decoration: none;
-    color: #FFFF; 
+    color: #FFFF;
     display: block;
     text-align: center;
     padding: 20px;
 }
 
-.nav_list_item > a:hover {
+.nav_list_item>a:hover {
     background-color: #f9c74f;
     color: #212529;
 }
@@ -59,11 +64,167 @@ a.nav_list_item_active {
     color: #212529;
 }
 
+/*Toggle*/
+
+.fa-sun,
+.fa-check {
+    color: #f1c40f;
+}
+
+.fa-ghost,
+.fa-x {
+    color: #7b2cbf;
+    margin-left: 3px;
+    margin-bottom: 2px;
+}
+
+
+.label {
+    background-color: #121212;
+    border-radius: 50px;
+    width: 35px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 13px;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label .ball {
+    background-color: #fff;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transform: translateX(-3px);
+    transition: transform 0.3s linear;
+}
+
+.checkbox:checked+.label .ball {
+    background-color: #f1c40f;
+    transform: translateX(18px);
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    transition: background 0.2s linear;
+}
+
+.dark .navigation{
+    background-color: #212529;
+    border-color: #f1c40f;
+}
+
+.dark code{
+    background-color: #f1c40f;
+    color: black;
+}
+
+.dark .nav_list_item > a{
+    color: #f7f7f7;
+}
+
+.dark a:not(.nav_list_item > a) {
+    color: rgba(255, 196, 0, 0.959);
+}
+
+.dark .main_flex{
+    flex-direction: column;
+    width: 90%;
+    padding: 50px;
+    border: solid 2px white;
+}
+
+
+/*H O M E W O R K*/
+.main_flex .checkbox:checked+.label .ball {
+    background-color: #35f10f;
+    transform: translateX(12.5px);
+}
+
+.main_flex .label .ball {
+    background-color: #fff;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    transform: translateX(-2px);
+    transition: transform 0.3s linear;
+}
+
+.main_flex .label {
+    background-color: rgb(18, 18, 18);
+    border-radius: 50px;
+    width: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 13px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ .main_flex .label .ball {
+    background-color: #fff;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    transform: translateX(-3px);
+    transition: transform 0.3s linear;
+}
+
+ 
+
+.main_flex .toggle_switch {
+    display: block;
+    margin: 15px 50px;
+    transform: scale(1.1);
+}
+
+.main_flex .fa-check{
+    margin-left: 0px;
+    margin-bottom: 1px;
+    width: -10px;
+}
+
+.main_flex .fa-x{
+    margin-left: 0px;
+    margin-bottom: 1px;
+}
+
+.main_flex .fa-check:before {
+  padding: 5.1px;
+}
+
+
+/*Toggle end*/
+
 .main_content {
     margin: 5em;
     display: grid;
     align-items: center;
     justify-content: center;
+    grid-template-columns: repeat(auto auto auto);
+}
+
+.main_content_grid {
+    margin: 5em;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto auto auto);
+    
 }
 
 .main_article {
@@ -132,7 +293,7 @@ a:visited:not(.nav_list_item > a) {
     margin-bottom: 15px;
     font-size: 1.5em;
     border-radius: 10px;
-    width: 400px;   
+    width: 400px;
 }
 
 .form_button {
@@ -159,14 +320,113 @@ a:visited:not(.nav_list_item > a) {
 footer {
     background-color: #212529;
     margin: 0;
+   
 }
 
-footer > p {
+footer>p {
     text-align: center;
     color: #ced4da;
 }
 
-#projects{
+/*L O G I N*/
+.login_footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.login_body {
+    margin: 0;
+    padding: 0;
+    background: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 500px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+.box>h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#username,
+#password {
+    background: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin: 20px auto;
+    border: solid 3px #212529;
+    width: 200px;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 15px;
+    outline: none;
+}
+
+#username:focus,
+#password:focus,
+#username:hover,
+#password:hover {
+    border-color: #f1c40f;
+    box-shadow: #fff 0 0 16px 2px;
+    transition: transform 0.3s ease-out;
+    transform: scale(1.1, 1.1);
+}
+
+#sub {
+    display: block;
+    width: 140px;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border: solid 3px #212529;
+    border-radius: 15px;
+    outline: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+
+#sub:hover {
+    border-color: #f1c40f;
+    box-shadow: #fff 0 0 16px 2px;
+    background-color: #f9c74f;
+    color: #000;
+    transform: scale(1.1,1.1);
+    transition: transform 0.5s ease-out;
+}
+
+@media screen and (max-width: 900px) {
+    html, body.login_body {
+        max-width: 100%;
+        overflow-x: hidden;
+        background-size: 300vh
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box{
+        width: auto;
+    }
+}
+
+/*L O G I N end*/
+#projects {
     justify-content: center;
 }
 
@@ -174,17 +434,17 @@ footer > p {
     text-align: center;
     padding: 10rem 2rem;
     background: var(--main-blue);
-    
-  }
 
-  .projects-section-header {
+}
+
+.projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
-  }
+}
 
 
-  .projects-grid {
+.projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
@@ -192,36 +452,110 @@ footer > p {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
-  }
+}
 
-  .project {
+.project {
     background: var(--main-gray);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 
-  }
+}
 
-  .code {
-    color: var(--main-gray);
-    transition: color 0.3s ease-out;
-  }
+.code {
+    border: solid #eaecf0 1px; 
+    border-radius:2px; 
+    padding: 1px 4px; 
+    background-color: #f8f9fa;
+}
 
-  .project:hover .code {
+.project:hover .code {
     color: #ff7f50;
-  }
+}
 
-  .project-image {
+.project-image {
     height: calc(100% - 6.8rem);
     width: 100%;
     object-fit: cover;
-  }
+}
 
-  .project-title {
+.project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
-  }
+}
 
-  img {
+img {
     display: block;
     width: 100%;
-  }
+}
+
+.main_content_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 30px;
+}
+
+.toggle,
+.logout {
+    float: right;
+
+}
+
+.toggle_switch {
+    display: block;
+    margin: 15px 50px;
+    transform: scale(1.1);
+}
+
+.navigation {
+    border: solid #000 1px;
+    background-color: #f8f9fa; 
+    width: 30%;
+}
+
+/*Settings*/
+.main_head{
+    position: relative;
+    left: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    transform: translate(-3%, -50%);
+}
+.main_flex{
+    flex-direction: column;
+    width: 90%;
+    padding: 50px;
+    border: solid 2px black;
+}
+.flex_set,
+.main_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+div.flex_set:nth-child(n+4):nth-child(-n+6)
+{
+border:#000 solid 1px;
+background-color: #1a759f;
+columns: #fff;
+}
+
+.flex_set{
+    width: 80%;
+}
+
+.flex_set > h3 {
+    margin-left: 10px;
+}
+/*Settings end*/
+
+/*
+Homework
+    1. Setting togle make ball green on switch
+    2. Fix toggle size
+    3. Resize iframe (height)
+    4. Integrate Settings into all the pages we have
+
+*/
+
