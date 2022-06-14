@@ -1,0 +1,4 @@
+/.idea/
+/src/main/resources/chromedriver.exe
+/build
+/target

@@ -9,8 +9,7 @@ console.log(user);
 function printRandom() {
     let number = Math.random();
     console.log(number);
-    console.log(number.toFixed(3));
-    console.log(`The variable ${number} has the type of ${typeof number}`);
+    console.log(+number.toFixed(3));
 }
 
 printRandom();

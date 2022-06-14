@@ -4,9 +4,15 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import cucumber.sconto.pages.*;
 import cucumber.sconto.util.Helper;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.docstring.DocString;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+
+import java.util.List;
+import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.page;
 
@@ -63,6 +69,7 @@ public class CustomerAccountSteps {
         Helper.acceptCookies();
         loginPage.validLoginInput();
         homePage = loginPage.clickLoginBtn();
+
         homePage.checkIconText("Mein Konto");
         customerAccountPage = homePage.clickLoginIcon(CustomerAccountP.class);
         shouldBeLoggedIn();
@@ -83,21 +90,39 @@ public class CustomerAccountSteps {
         kundenDatenPage.getSaveButton().should(Condition.exist);
     }
 
-    @When("I change customer name to 123")
-    public void iChangeCustomerNameTo123() {
-kundenDatenPage.clickOnFirstNameField();
-kundenDatenPage.editFirstNameField();
+    @When("I change customer name to {}")
+    public void iChangeCustomerName(String name) {
+        kundenDatenPage.editFirstNameField(name);
     }
 
     @When("I click Save button")
-    public void clickOnSaveButton(){
+    public void clickOnSaveButton() {
         kundenDatenPage.getSaveButton().click();
     }
 
     @Then("I see error message:")
-    public void iSeeFirstNameError(){
-        kundenDatenPage.getFirstNameFieldError().should(Condition.exist);
+    public void iSeeFirstNameError(DocString errorMessage) {
+        String message = errorMessage.getContent();
+        kundenDatenPage.getFirstNameFieldError().shouldHave(Condition.text(message));
     }
+
+    @When("I change customer data")
+    public void iChangeCustomerData(DataTable customerInfo) {
+        List<Map<String, String>> data = customerInfo.asMaps(String.class, String.class);
+        String customerName = data.get(0).get("Name");
+        String customerLastName = data.get(0).get("Last Name");
+        String customerCountryCode = data.get(0).get("Country Code");
+        String customerPhoneNumber = data.get(0).get("Phone Number");
+        String customerBirthday = data.get(0).get("Birthday");
+        kundenDatenPage.editCustomerDataFields(customerName, customerLastName, customerCountryCode, customerPhoneNumber, customerBirthday);
+    }
+
+    @Then("I see Edit button")
+    public void iSeeEditButton() {
+        kundenDatenPage.getSaveButton().should(Condition.exist);
+    }
+
+
 
 }
 

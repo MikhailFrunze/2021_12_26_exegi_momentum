@@ -1,9 +1,6 @@
 package cucumber.sconto.util;
 
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideDriver;
-import com.codeborne.selenide.WebDriverRunner;
+import com.codeborne.selenide.*;
 import cucumber.sconto.util.PropertiesLoader;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,9 +22,13 @@ public class Helper {
 
 
     public static void acceptCookies(){
-        $(acceptBtn).click();
+        if($(acceptBtn).isDisplayed()) {
+            $(acceptBtn).click();
+        }
         WebDriverRunner.getWebDriver().manage().window().maximize();
     }
+
+
 
 
 }

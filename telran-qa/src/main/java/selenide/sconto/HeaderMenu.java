@@ -27,12 +27,13 @@ public class HeaderMenu {
 
     /* Methods for Header Menu */
 
-    public <T> T clickLoginIcon(Class<T> expectedPage){ // решение проблемы с одинаковыми действиями, меняем в тесте
+    public <T> T clickLoginIcon(Class<T> expectedPage) { // решение проблемы с одинаковыми действиями, меняем в тесте
         $(iconLogin).click();
         return page(expectedPage);
     }
 
     public void checkIconText(String iconText) {
+        $(iconLogin).shouldBe(Condition.visible);
         $(iconLogin).shouldHave(Condition.text(iconText));
     }
 
