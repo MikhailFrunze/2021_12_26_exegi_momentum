@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>HW landing page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#Intro" class="nav-link">Intro</a></li>
+            <li><a href="#Examples" class="nav-link">Examples</a></li>
+            <li><a href="#Prices" class="nav-link">Prices</a></li>
+            <li><a href="#Questions" class="nav-link">Questions</a></li>
+            <li><a href="#Contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="main">
+        <div id="header">
+            <img id="header-img" src="https://i.ibb.co/RyW1JmS/IMG-20200606-WA0000.jpg" alt="Mi High Beats logo">
+        </div>
+        <div class="intro" id="Intro">
+            <h1>Welcome to Mi High Beats</h1>
+            <p><i><b>About me</b></i></p>
+            <span>Hi, my name is Mihail Frunze. I am a 28 years old beatmaker, music producer and the owner of Mi High
+                Beats Youtube channel. I am from Moldova and am currently residing in
+                Germany. <br><br>
+                Appart from selling my beats, I can gladly produce a track (including ghost writing) or any genre of
+                instrumental for you, from hip-hop to
+                rock, from ethnic to cinematic tunes. My services also include mixing and/or
+                mastering YOUR masterpiece.
+            </span>
+        </div>
+        <div class="examples" id="Examples">
+            <h3>Here are some examples of my work</h3>
+            <div class="examples_grid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eWb1Bu0j0tk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ddnabtRzofQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iEbY7SDJaWM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eX4sshBlbE0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BpOX0X_hIZ4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3lsj1__bo1c"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="prices" id="Prices">
+            <h3>Check out the prices</h3>
+            <a href="https://codepen.io/Mihail-Frunze/full/rNJxqay" target="_blank" class="project project-tile">
+                <img src="https://shots.codepen.io/Mihail-Frunze/pen/rNJxqay-512.webp?version=1652020478" alt="project">
+                <p class="project-title">
+                    <span class="code"></span>
+                    Click here for pricing
+                    <span class="code"></span>
+                </p>
+            </a>
+        </div>
+        <div class="questions" id="Questions">
+            <h3>Have questions?</h3>
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">Age (optional)</label>
+                    <input type="number" name="age" id="number" min="10" max="99" placeholder="Age">
+                </div>
+                <div class="form-group">
+                    <p>Which option best describes your current role?</p>
+                    <select id="dropdown" class="form-control" required>
+                        <option disabled selected value>Select current role</option>
+                        <option value="beatmaker">Beatmaker</option>
+                        <option value="producer">Producer</option>
+                        <option value="artist">Artist</option>
+                        <option value="preferNo">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea class="input-textarea" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-button" id="submit">Submit</button>
+                </div>
+        </div>
+        <section class="contact-section">
+            <div class="contact-section-header" id="Contact">
+                <h3>Drop me a line and let's work together</h3>
+                <p><b><i>How do you take your coffee?</i></b></p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.facebook.com/profile.php?id=100009716378249" target="_blank"
+                    class="btn contact-details">
+                    <i class="fab fa-facebook-square"> Facebook</i>
+                </a>
+                <a id="profile-link" href="https://github.com/MikhailFrunze" target="_blank"
+                    class="btn contact-details">
+                    <i class="fab fa-github"> GitHub</i>
+                </a>
+                <a href="mailto:mihailfrunze1@gmail.com" class="btn contact-details"><i class="fas fa-at">Send a
+                        mail</i></a>
+            </div>
+        </section>
+    </section>
+    <footer>&copy; Mihail Frunze</footer>
+</body>
+
+</html>
