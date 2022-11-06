@@ -1,0 +1,56 @@
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 740px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(64, 65, 73, 0.9), rgba(64, 65, 73, 0.9)), url(https://cdn.pixabay.com/photo/2019/10/13/13/28/bridge-4546141_960_720.jpg), #404149;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_main {
+
+    width: 734px;
+    height: 171px;
+    left: 593px;
+    top: 192px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 192px;
+}
+
+.text_secondary {
+    width: 734px;
+    height: 22px;
+    left: 593px;
+    top: 398px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.numbers {
+    width: 1110px; 
+    height: 300px;
+    left: 305px;
+    top: 440px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+.request {
+    width: 1920px;
+    height: 181px;
+    left: 0px;
+    background: #F7654A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.request_text h2 {
+    width: 537px;
+    height: 57px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 405px;
+}
+
+.request_text p {
+    width: 562px;
+    height: 29px;
+    left: 405px;
+    top: 1928px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 405px;
+}
+
+.request_btn button {
+    width: 175px;
+    height: 49px;
+    top: 1894px;
+    background: #FFFFFF;
+    border-color: transparent;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.request_btn {
+    align-self: center;
+    margin-right: 405px;
+}
+

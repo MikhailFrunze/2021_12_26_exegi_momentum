@@ -1,0 +1,38 @@
+
+.img {
+    width: 350px;
+    height: 380px;
+    margin-left: 405px;
+}
+
+.title {
+    width: 142px;
+    height: 29px;
+    margin-left: 405px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.description {
+    width: 350px;
+    height: 83px;
+    margin-left: 405px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.hr {
+    width: 55px;
+    height: 6px;
+    margin-left: 405px;
+    background: #F7654A;
+    margin-top: 45px;
+}

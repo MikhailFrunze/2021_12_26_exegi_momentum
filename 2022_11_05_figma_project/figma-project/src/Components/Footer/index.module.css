@@ -1,0 +1,29 @@
+.footer {
+    width: 1920px;
+    height: 82px;
+    left: 7px;
+    top: 2002px;
+    background: #404149;
+    display: flex;
+    align-items: center;
+}
+
+.footer p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 251px;
+    height: 22px;
+}
+
+#p1 {
+    margin-left: 405px;
+}
+
+#p2 {
+    margin-left: 670px;
+}
+

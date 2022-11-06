@@ -1,0 +1,25 @@
+.project {
+    width: 1110px;
+    height: 681px;
+    left: 405px;
+    margin-top: 1043px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 30px;
+}
+
+.project h2 {
+    position: absolute;
+    width: 506px;
+    height: 43px;
+    left: 706px;
+    top: 940px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
