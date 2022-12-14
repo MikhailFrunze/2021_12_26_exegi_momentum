@@ -7,7 +7,7 @@ export default function Product({id, title, price}) {
 
     const dispatch = useDispatch();
 
-    const add_to_basket = () => dispatch(addToCart(id, title, price));
+    const add_to_basket = () => dispatch(addToCart({id, title, price}));
 
   return (
     <div className={s.product_item}>
