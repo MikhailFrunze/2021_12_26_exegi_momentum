@@ -12,7 +12,7 @@ export default function Basket({id, title, price, count}) {
   let getTotalQuantity = () => {
     let total = 0
     state.forEach(el => {
-      total += el.count
+      total += el.price * el.count
     })
     return total
   }
@@ -27,6 +27,11 @@ export default function Basket({id, title, price, count}) {
 
       <button className={classes} onClick={() => dispatch(clearBasket())}>Clear basket</button>
       <p>Sum: {getTotalQuantity()}</p>
+      <p>Total:
+        {
+          state.reduce((prev, {count, price}) => prev + price * count, 0)
+        }
+      </p>
     </div>
   )
 }
